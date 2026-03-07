@@ -23,7 +23,7 @@ class Program
 
 
         DateTime end = DateTime.Now;
-        TimeSpan timeElapsed = start - end;
+        TimeSpan timeElapsed = end - start;
         Console.WriteLine($"Total time: {timeElapsed.TotalSeconds}");
     }
 
